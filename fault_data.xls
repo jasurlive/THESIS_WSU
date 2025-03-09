@@ -1,0 +1,1209 @@
+<div id="divGrid" class="divGrid">
+                           <div id="divhead">
+                                <span id="lblName1" class="GeneralLabel" style="color:#C00000;font-weight:bold;">Loco No: 30699 &nbsp&nbsp LocoType: WAP7 &nbsp;&nbsp;Shed:TATA&nbsp;&nbsp;Zone:SER&nbsp;&nbsp; Date: 10/26/2024 &nbsp;&nbsp;&nbsp; Time: 14:43:22</span>
+                                <span id="lblFaultNames" style="color:Navy;font-weight:bold;">Fault Code: 18562  &nbsp;&nbsp; <span style="color:blue"> Message: [F0103P2] MCC :Earth Fault in Aux winding  </span> &nbsp;&nbsp; Location: PANIAJOB</span>
+                                    <br />
+                                <span id="lblPresent">Present Date: 01/02/2025 11:14:00</span>
+                           </div>
+                            <div id="DivRoot" >
+                                    <div style="overflow-y: hidden; overflow-x: hidden;"   id="DivHeaderRow">
+                                        <table id="tblClient" class="grid"  >
+                                        </table>
+                                    </div>
+                                    <div style="overflow-y: scroll; overflow-x: auto;"   id="DivMainContent" >
+                                        <div>
+	<table class="grid" Font="" id="Contentplaceholder1_grd" style="color:#333333;width:100%;">
+		<tr align="center" style="font-weight:bold;">
+			<th scope="col">Field Name</th><th scope="col">Units</th><th scope="col">10/26/2024 14:43:17</th><th scope="col">10/26/2024 14:43:18</th><th scope="col">10/26/2024 14:43:19</th><th scope="col">10/26/2024 14:43:20</th><th scope="col">10/26/2024 14:43:21</th><th scope="col">10/26/2024 14:43:22</th><th scope="col">10/26/2024 14:43:22 </th><th scope="col">10/26/2024 14:43:23</th><th scope="col">10/26/2024 14:43:24</th><th scope="col">10/26/2024 14:43:25</th>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;height:42px;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Packet_Index</td><td>&nbsp;</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Loco_speed</td><td>KMPH</td><td>93</td><td>92</td><td>91</td><td>90</td><td>90</td><td>89</td><td>88</td><td>88</td><td>88</td><td>87</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Acceleration</td><td>m/sec2</td><td>-0.2</td><td>-0.2</td><td>-0.2</td><td>-0.2</td><td>-0.2</td><td>-0.2</td><td>-0.2</td><td>-0.2</td><td>-0.2</td><td>-0.1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_Volt_KV</td><td>KV</td><td>27.4</td><td>27.4</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_Current</td><td>Amps</td><td>100</td><td>99</td><td>95</td><td>96</td><td>95</td><td>92</td><td>97</td><td>95</td><td>93</td><td>92</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Line_frequency</td><td>Hz</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TE_BE_DemandPer</td><td>%</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OP_Mode</td><td>NUM</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td><td>REGENERATIVE BRAKING</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Limit_Para</td><td>NUM</td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td><td>NO LIMIT       </td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Limit_Para_BG1</td><td>NUM</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Limit_Para_BG2</td><td>NUM</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td><td>TORQUE_LIMIT</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TE_BE_Bogie1_Per</td><td>%</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TE_BE_Bogie2_Per</td><td>%</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td><td>46</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TE_BE_BG1_KN</td><td>KN</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TE_BE_BG2_KN</td><td>KN</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td><td>-60</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">MCC1_Node</td><td>NUM</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">MCC2_Node</td><td>NUM</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td><td>596</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">SLV_Node</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_DCLV</td><td>Volts</td><td>2603</td><td>2630</td><td>2641</td><td>2622</td><td>2613</td><td>2632</td><td>2631</td><td>2612</td><td>2603</td><td>2627</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_DCLV</td><td>Volts</td><td>2608</td><td>2596</td><td>2599</td><td>2606</td><td>2601</td><td>2593</td><td>2605</td><td>2590</td><td>2591</td><td>2606</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Battery_Volt</td><td>Volts</td><td>98</td><td>98</td><td>103</td><td>104</td><td>106</td><td>107</td><td>108</td><td>108</td><td>109</td><td>109</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BP_Pressure</td><td>Kg/cm2</td><td>4.7</td><td>5.0</td><td>5.2</td><td>5.2</td><td>5.2</td><td>5.2</td><td>5.2</td><td>5.2</td><td>5.2</td><td>5.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Pneu_Demand_Per</td><td>%</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Aux_Inp_Vol</td><td>Volts</td><td>1057</td><td>1053</td><td>1052</td><td>1050</td><td>1050</td><td>1050</td><td>1050</td><td>1050</td><td>1052</td><td>1050</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Aux_Winding_I</td><td>Amps</td><td>189</td><td>235</td><td>259</td><td>253</td><td>236</td><td>256</td><td>224</td><td>216</td><td>226</td><td>256</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Har_Filter_I</td><td>Amps</td><td>179</td><td>181</td><td>180</td><td>177</td><td>179</td><td>176</td><td>185</td><td>177</td><td>176</td><td>174</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Stall_Torque</td><td>N-m</td><td>3107</td><td>3107</td><td>3106</td><td>3099</td><td>3106</td><td>3105</td><td>3103</td><td>3107</td><td>3104</td><td>3106</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Stall_Torque</td><td>N-m</td><td>3101</td><td>3101</td><td>3100</td><td>3093</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Stall_Torque</td><td>N-m</td><td>3104</td><td>3104</td><td>3103</td><td>3096</td><td>3103</td><td>3102</td><td>3100</td><td>3104</td><td>3101</td><td>3103</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Stall_Torque</td><td>N-m</td><td>3101</td><td>3101</td><td>3100</td><td>3093</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Stall_Torque</td><td>N-m</td><td>3102</td><td>3102</td><td>3101</td><td>3094</td><td>3101</td><td>3100</td><td>3098</td><td>3102</td><td>3099</td><td>3101</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Stall_Torque</td><td>N-m</td><td>3100</td><td>3100</td><td>3099</td><td>3092</td><td>3099</td><td>3098</td><td>3096</td><td>3100</td><td>3097</td><td>3099</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Torque_Ref</td><td>N-m</td><td>3107</td><td>3107</td><td>3106</td><td>3099</td><td>3106</td><td>3105</td><td>3103</td><td>3107</td><td>3104</td><td>3106</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Torque_Ref</td><td>N-m</td><td>3101</td><td>3101</td><td>3100</td><td>3093</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Torque_Ref</td><td>N-m</td><td>3104</td><td>3104</td><td>3103</td><td>3096</td><td>3103</td><td>3102</td><td>3100</td><td>3104</td><td>3101</td><td>3103</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Torque_Ref</td><td>N-m</td><td>3101</td><td>3101</td><td>3100</td><td>3093</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Torque_Ref</td><td>N-m</td><td>3102</td><td>3102</td><td>3101</td><td>3094</td><td>3101</td><td>3100</td><td>3098</td><td>3102</td><td>3099</td><td>3101</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Torque_Ref</td><td>N-m</td><td>3100</td><td>3100</td><td>3099</td><td>3092</td><td>3099</td><td>3098</td><td>3096</td><td>3100</td><td>3097</td><td>3099</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Torque_Fbk</td><td>N-m</td><td>3041</td><td>3085</td><td>3101</td><td>3047</td><td>3081</td><td>3158</td><td>3147</td><td>3084</td><td>3168</td><td>3090</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Torque_Fbk</td><td>N-m</td><td>3090</td><td>3048</td><td>3167</td><td>3098</td><td>3153</td><td>3099</td><td>3044</td><td>3129</td><td>3062</td><td>3138</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Torque_Fbk</td><td>N-m</td><td>3025</td><td>3122</td><td>3065</td><td>3054</td><td>3070</td><td>3153</td><td>3143</td><td>3035</td><td>3117</td><td>3021</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Torque_Fbk</td><td>N-m</td><td>3144</td><td>3046</td><td>3131</td><td>3081</td><td>3099</td><td>3188</td><td>3048</td><td>3100</td><td>3035</td><td>3061</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Torque_Fbk</td><td>N-m</td><td>3089</td><td>3103</td><td>3087</td><td>3077</td><td>3101</td><td>3087</td><td>3098</td><td>3102</td><td>3091</td><td>3063</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Torque_Fbk</td><td>N-m</td><td>3067</td><td>3122</td><td>3065</td><td>3048</td><td>3073</td><td>3112</td><td>3112</td><td>3123</td><td>3058</td><td>3076</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_RPM</td><td>RPM</td><td>1620</td><td>1606</td><td>1591</td><td>1578</td><td>1562</td><td>1542</td><td>1546</td><td>1536</td><td>1523</td><td>1525</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_RPM</td><td>RPM</td><td>1622</td><td>1605</td><td>1590</td><td>1578</td><td>1565</td><td>1552</td><td>1544</td><td>1542</td><td>1533</td><td>1526</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_RPM</td><td>RPM</td><td>1620</td><td>1605</td><td>1588</td><td>1575</td><td>1563</td><td>1552</td><td>1544</td><td>1542</td><td>1532</td><td>1524</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_RPM</td><td>RPM</td><td>1624</td><td>1608</td><td>1585</td><td>1577</td><td>1567</td><td>1544</td><td>1542</td><td>1533</td><td>1527</td><td>1525</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_RPM</td><td>RPM</td><td>1621</td><td>1607</td><td>1592</td><td>1576</td><td>1564</td><td>1547</td><td>1540</td><td>1534</td><td>1530</td><td>1526</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_RPM</td><td>RPM</td><td>1621</td><td>1609</td><td>1593</td><td>1577</td><td>1566</td><td>1553</td><td>1547</td><td>1544</td><td>1533</td><td>1526</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Average_RRPM</td><td>RPM</td><td>1618</td><td>1604</td><td>1587</td><td>1574</td><td>1562</td><td>1545</td><td>1541</td><td>1536</td><td>1527</td><td>1522</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_RPM_Limit</td><td>RPM</td><td>1538</td><td>1524</td><td>1508</td><td>1496</td><td>1484</td><td>1468</td><td>1464</td><td>1460</td><td>1451</td><td>1446</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_RPM_Limit</td><td>RPM</td><td>1539</td><td>1526</td><td>1510</td><td>1498</td><td>1486</td><td>1470</td><td>1466</td><td>1462</td><td>1453</td><td>1448</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_RPM_Limit</td><td>RPM</td><td>1538</td><td>1525</td><td>1509</td><td>1497</td><td>1485</td><td>1469</td><td>1465</td><td>1461</td><td>1452</td><td>1447</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_RPM_Limit</td><td>RPM</td><td>1539</td><td>1526</td><td>1510</td><td>1498</td><td>1486</td><td>1470</td><td>1466</td><td>1462</td><td>1453</td><td>1448</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_RPM_Limit</td><td>RPM</td><td>1539</td><td>1526</td><td>1510</td><td>1498</td><td>1486</td><td>1470</td><td>1466</td><td>1462</td><td>1453</td><td>1448</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_RPM_Limit</td><td>RPM</td><td>1540</td><td>1527</td><td>1511</td><td>1499</td><td>1487</td><td>1471</td><td>1467</td><td>1462</td><td>1454</td><td>1449</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wheel_Diameter_1</td><td>mm</td><td>1092</td><td>1092</td><td>1092</td><td>1092</td><td>1092</td><td>1092</td><td>1092</td><td>1092</td><td>1092</td><td>1092</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wheel_Diameter_2</td><td>mm</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wheel_Diameter_3</td><td>mm</td><td>1091</td><td>1091</td><td>1091</td><td>1091</td><td>1091</td><td>1091</td><td>1091</td><td>1091</td><td>1091</td><td>1091</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wheel_Diameter_4</td><td>mm</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wheel_Diameter_5</td><td>mm</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td><td>1090</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wheel_Diameter_6</td><td>mm</td><td>1089</td><td>1089</td><td>1089</td><td>1089</td><td>1089</td><td>1089</td><td>1089</td><td>1089</td><td>1089</td><td>1089</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Stator_Temp</td><td>Deg c</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Stator_Temp</td><td>Deg c</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Stator_Temp</td><td>Deg c</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Stator_Temp</td><td>Deg c</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Stator_Temp</td><td>Deg c</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Stator_Temp</td><td>Deg c</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI1_HS_Temp</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI2_HS_Temp</td><td>Deg c</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI3_HS_Temp</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI4_HS_Temp</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI5_HS_Temp</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI6_HS_Temp</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Phase_Temp</td><td>Deg c</td><td>44</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Phase_Temp</td><td>Deg c</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>42</td><td>43</td><td>43</td><td>43</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Phase_Temp</td><td>Deg c</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Phase_Temp</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_LTC_TM_Eff</td><td>%</td><td>88.5</td><td>89.0</td><td>88.2</td><td>88.8</td><td>88.6</td><td>88.3</td><td>87.8</td><td>88.9</td><td>88.4</td><td>88.6</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_LTC_TM_Eff</td><td>%</td><td>92.3</td><td>91.7</td><td>92.3</td><td>92.0</td><td>92.1</td><td>91.6</td><td>91.8</td><td>91.2</td><td>91.7</td><td>91.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_Ref_Power</td><td>KW</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_Ref_Power</td><td>KW</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td><td>2040</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_Fbk_Power</td><td>KW</td><td>1423</td><td>1430</td><td>1328</td><td>1370</td><td>1331</td><td>1297</td><td>1369</td><td>1384</td><td>1345</td><td>1292</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_Fbk_Power</td><td>KW</td><td>1457</td><td>1408</td><td>1424</td><td>1400</td><td>1400</td><td>1367</td><td>1434</td><td>1363</td><td>1331</td><td>1366</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_TM_Ref_Power</td><td>KW</td><td>770</td><td>765</td><td>768</td><td>770</td><td>765</td><td>766</td><td>777</td><td>772</td><td>765</td><td>765</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_TM_Ref_Power</td><td>KW</td><td>734</td><td>738</td><td>737</td><td>740</td><td>740</td><td>741</td><td>745</td><td>742</td><td>743</td><td>747</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_TM_Fbk_Power</td><td>KW</td><td>1554</td><td>1556</td><td>1554</td><td>1519</td><td>1523</td><td>1526</td><td>1510</td><td>1492</td><td>1497</td><td>1477</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_TM_Fbk_Power</td><td>KW</td><td>1580</td><td>1561</td><td>1546</td><td>1520</td><td>1520</td><td>1522</td><td>1496</td><td>1501</td><td>1472</td><td>1470</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv1_Coolant_Temp</td><td>Deg c</td><td>43</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv2_Coolant_Temp</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv1_Coolant_Pressure</td><td>Bar</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv2_Coolant_Pressure</td><td>Bar</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_T_F_Oil_Temp</td><td>Deg c</td><td>52</td><td>53</td><td>52</td><td>52</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>52</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_T_F_Oil_Temp</td><td>Deg c</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie1_T_F_Oil_Pressure</td><td>Bar</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Bogie2_T_F_Oil_Pressure</td><td>Bar</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCU1_MCC_Temp</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCU1_DIP_Temp</td><td>Deg c</td><td>41</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCU1_DOP_Temp</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCU2_MCC_Temp</td><td>Deg c</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCU2_DIP_Temp</td><td>Deg c</td><td>43</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCU2_DOP_Temp</td><td>Deg c</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Avg_Power_Factor</td><td>NUM</td><td>0.998</td><td>0.998</td><td>0.998</td><td>0.998</td><td>0.997</td><td>0.998</td><td>0.998</td><td>0.998</td><td>0.998</td><td>0.998</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Loco1_Status</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Loco2_Status</td><td>NUM</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Testmode_Number</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wheel_Dia_Calib_Fail_Cnt</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Wdia_Attempts</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCB_Trip_Info</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TE_BE_KN</td><td>KN</td><td>-120</td><td>-120</td><td>-120</td><td>-120</td><td>-120</td><td>-120</td><td>-120</td><td>-120</td><td>-120</td><td>-120</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Energy_Cntr</td><td>NUM</td><td>699</td><td>700</td><td>701</td><td>702</td><td>703</td><td>704</td><td>704</td><td>705</td><td>706</td><td>707</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Enrgy_data_MSW</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Enrgy_data_LSW</td><td>NUM</td><td>1681</td><td>1713</td><td>1634</td><td>1616</td><td>1598</td><td>1638</td><td>1638</td><td>1569</td><td>1559</td><td>1599</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">VCU_Card_Sense</td><td>NUM</td><td>40383</td><td>40383</td><td>40383</td><td>40383</td><td>40383</td><td>40383</td><td>40383</td><td>40383</td><td>40383</td><td>40383</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Shutdown_Type</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Shutdown_Type</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Shutdown_Type</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Shutdown_Type</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Shutdown_Type</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Shutdown_Type</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_I_Peak</td><td>Amps</td><td>357</td><td>361</td><td>371</td><td>364</td><td>352</td><td>356</td><td>375</td><td>364</td><td>362</td><td>362</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_I_Peak</td><td>Amps</td><td>362</td><td>371</td><td>374</td><td>370</td><td>360</td><td>364</td><td>359</td><td>366</td><td>359</td><td>357</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_I_Peak</td><td>Amps</td><td>352</td><td>365</td><td>367</td><td>368</td><td>366</td><td>368</td><td>373</td><td>368</td><td>362</td><td>363</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_I_Peak</td><td>Amps</td><td>345</td><td>345</td><td>340</td><td>335</td><td>334</td><td>345</td><td>331</td><td>337</td><td>326</td><td>334</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_I_Peak</td><td>Amps</td><td>344</td><td>341</td><td>339</td><td>339</td><td>333</td><td>330</td><td>330</td><td>334</td><td>332</td><td>325</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_I_Peak</td><td>Amps</td><td>357</td><td>364</td><td>360</td><td>371</td><td>365</td><td>353</td><td>366</td><td>362</td><td>352</td><td>364</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1CntrlWrdFbk</td><td>NUM</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2CntrlWrdFbk</td><td>NUM</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3CntrlWrdFbk</td><td>NUM</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td><td>4610</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4CntrlWrdFbk</td><td>NUM</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5CntrlWrdFbk</td><td>NUM</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6CntrlWrdFbk</td><td>NUM</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td><td>2570</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_WSlip_Der</td><td>%</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_WSlip_Der</td><td>%</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_WSlip_Der</td><td>%</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_WSlip_Der</td><td>%</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_WSlip_Der</td><td>%</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_WSlip_Der</td><td>%</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td><td>1000.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC1_to_MCC_Flag</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC2_to_MCC_Flag</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC3_to_MCC_Flag</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC4_to_MCC_Flag</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC5_to_MCC_Flag</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC6_to_MCC_Flag</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_DCLV</td><td>Volts</td><td>2559</td><td>2584</td><td>2584</td><td>2579</td><td>2561</td><td>2572</td><td>2581</td><td>2574</td><td>2564</td><td>2570</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_DCLV</td><td>Volts</td><td>2570</td><td>2592</td><td>2565</td><td>2579</td><td>2558</td><td>2570</td><td>2593</td><td>2593</td><td>2577</td><td>2571</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_DCLV</td><td>Volts</td><td>2537</td><td>2557</td><td>2525</td><td>2542</td><td>2523</td><td>2535</td><td>2560</td><td>2561</td><td>2545</td><td>2536</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_DCLV</td><td>Volts</td><td>2561</td><td>2565</td><td>2572</td><td>2563</td><td>2560</td><td>2558</td><td>2599</td><td>2550</td><td>2551</td><td>2571</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_DCLV</td><td>Volts</td><td>2570</td><td>2566</td><td>2573</td><td>2571</td><td>2563</td><td>2558</td><td>2579</td><td>2553</td><td>2554</td><td>2574</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_DCLV</td><td>Volts</td><td>2562</td><td>2568</td><td>2575</td><td>2566</td><td>2563</td><td>2562</td><td>2603</td><td>2551</td><td>2555</td><td>2572</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_KW</td><td>kw</td><td>-482</td><td>-476</td><td>-471</td><td>-461</td><td>-458</td><td>-458</td><td>-470</td><td>-466</td><td>-460</td><td>-449</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_KW</td><td>kw</td><td>-489</td><td>-475</td><td>-475</td><td>-473</td><td>-469</td><td>-467</td><td>-460</td><td>-471</td><td>-457</td><td>-458</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_KW</td><td>kw</td><td>-463</td><td>-478</td><td>-453</td><td>-460</td><td>-457</td><td>-463</td><td>-465</td><td>-448</td><td>-443</td><td>-444</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_KW</td><td>kw</td><td>-528</td><td>-516</td><td>-522</td><td>-497</td><td>-502</td><td>-499</td><td>-494</td><td>-484</td><td>-474</td><td>-492</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_KW</td><td>kw</td><td>-519</td><td>-515</td><td>-509</td><td>-507</td><td>-509</td><td>-492</td><td>-498</td><td>-489</td><td>-488</td><td>-486</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_KW</td><td>kw</td><td>-466</td><td>-468</td><td>-453</td><td>-456</td><td>-453</td><td>-445</td><td>-455</td><td>-452</td><td>-438</td><td>-446</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI1_HS_Temp1</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI2_HS_Temp1</td><td>Deg c</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI3_HS_Temp1</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI4_HS_Temp1</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI5_HS_Temp1</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI6_HS_Temp1</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI1_HS_Temp2</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI2_HS_Temp2</td><td>Deg c</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td><td>42</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI3_HS_Temp2</td><td>Deg c</td><td>39</td><td>39</td><td>39</td><td>39</td><td>39</td><td>39</td><td>39</td><td>39</td><td>39</td><td>39</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI4_HS_Temp2</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI5_HS_Temp2</td><td>Deg c</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td><td>41</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TI6_HS_Temp2</td><td>Deg c</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td><td>40</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Stat_Temp1</td><td>Deg c</td><td>112</td><td>112</td><td>112</td><td>112</td><td>112</td><td>112</td><td>112</td><td>112</td><td>112</td><td>112</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Stat_Temp1</td><td>Deg c</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Stat_Temp1</td><td>Deg c</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Stat_Temp1</td><td>Deg c</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Stat_Temp1</td><td>Deg c</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Stat_Temp1</td><td>Deg c</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td><td>105</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Stat_Temp2</td><td>Deg c</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td><td>114</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Stat_Temp2</td><td>Deg c</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td><td>116</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Stat_Temp2</td><td>Deg c</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td><td>110</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Stat_Temp2</td><td>Deg c</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td><td>115</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Stat_Temp2</td><td>Deg c</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td><td>108</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Stat_Temp2</td><td>Deg c</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td><td>107</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TIC1_Card_Amb_Temp</td><td>Deg c</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TIC2_Card_Amb_Temp</td><td>Deg c</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TIC3_Card_Amb_Temp</td><td>Deg c</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TIC4_Card_Amb_Temp</td><td>Deg c</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TIC5_Card_Amb_Temp</td><td>Deg c</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TIC6_Card_Amb_Temp</td><td>Deg c</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td><td>-50</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_MCC_Status</td><td>NUM</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_MCC_Status</td><td>NUM</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_MCC_Status</td><td>NUM</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_MCC_Status</td><td>NUM</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_MCC_Status</td><td>NUM</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_MCC_Status</td><td>NUM</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td><td>16384</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Trq_Der_Flags</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Trq_Der_Flags</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Trq_Der_Flags</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Trq_Der_Flags</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Trq_Der_Flags</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Trq_Der_Flags</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_Volt_LC1</td><td>KV</td><td>27.4</td><td>27.4</td><td>27.4</td><td>27.5</td><td>27.5</td><td>27.3</td><td>27.4</td><td>27.5</td><td>27.4</td><td>27.4</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_Volt_LC2</td><td>KV</td><td>27.3</td><td>27.3</td><td>27.4</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_Volt_LC3</td><td>KV</td><td>27.4</td><td>27.4</td><td>27.3</td><td>27.4</td><td>27.3</td><td>27.3</td><td>27.4</td><td>27.3</td><td>27.4</td><td>27.3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_Volt_LC4</td><td>KV</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td><td>27.3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_CurrentLC1</td><td>Amps</td><td>99.6</td><td>98.9</td><td>94.8</td><td>95.8</td><td>95.4</td><td>92.0</td><td>97.0</td><td>95.4</td><td>92.9</td><td>91.9</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_CurrentLC2</td><td>Amps</td><td>99.8</td><td>98.8</td><td>94.8</td><td>95.4</td><td>95.4</td><td>92.1</td><td>96.8</td><td>95.2</td><td>92.8</td><td>91.6</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_CurrentLC3</td><td>Amps</td><td>98.9</td><td>98.8</td><td>94.6</td><td>95.4</td><td>95.4</td><td>92.1</td><td>96.9</td><td>95.0</td><td>92.9</td><td>92.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">OHE_CurrentLC4</td><td>Amps</td><td>99.0</td><td>98.8</td><td>94.7</td><td>95.3</td><td>95.4</td><td>92.2</td><td>96.8</td><td>95.2</td><td>92.7</td><td>91.8</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Is_LC1</td><td>Amps</td><td>518.0</td><td>526.0</td><td>473.0</td><td>488.0</td><td>490.0</td><td>469.0</td><td>499.0</td><td>497.0</td><td>495.0</td><td>476.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Is_LC2</td><td>Amps</td><td>508.0</td><td>505.0</td><td>484.0</td><td>499.0</td><td>470.0</td><td>468.0</td><td>490.0</td><td>501.0</td><td>475.0</td><td>458.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Is_LC3</td><td>Amps</td><td>526.0</td><td>490.0</td><td>518.0</td><td>505.0</td><td>491.0</td><td>498.0</td><td>514.0</td><td>494.0</td><td>462.0</td><td>493.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Is_LC4</td><td>Amps</td><td>526.0</td><td>526.0</td><td>511.0</td><td>506.0</td><td>521.0</td><td>490.0</td><td>522.0</td><td>492.0</td><td>499.0</td><td>495.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">HL_I_LC1</td><td>Amps</td><td>17.8</td><td>17.8</td><td>17.8</td><td>17.8</td><td>17.8</td><td>17.8</td><td>17.8</td><td>17.8</td><td>17.8</td><td>17.8</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">HL_I_LC2</td><td>Amps</td><td>10.2</td><td>10.2</td><td>10.2</td><td>10.2</td><td>12.7</td><td>10.2</td><td>10.2</td><td>10.2</td><td>12.7</td><td>12.7</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">HL_I_LC3</td><td>Amps</td><td>7.6</td><td>10.2</td><td>10.2</td><td>7.6</td><td>7.6</td><td>10.2</td><td>7.6</td><td>7.6</td><td>10.2</td><td>10.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">HL_I_LC4</td><td>Amps</td><td>12.7</td><td>12.7</td><td>15.2</td><td>12.7</td><td>12.7</td><td>12.7</td><td>12.7</td><td>12.7</td><td>12.7</td><td>15.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">DCLV_LC1</td><td>Volts</td><td>2603.5</td><td>2630.4</td><td>2641.1</td><td>2622.2</td><td>2613.0</td><td>2631.9</td><td>2630.9</td><td>2612.2</td><td>2603.2</td><td>2626.8</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">DCLV_LC2</td><td>Volts</td><td>2603.5</td><td>2630.4</td><td>2641.1</td><td>2622.2</td><td>2613.0</td><td>2631.9</td><td>2630.9</td><td>2612.2</td><td>2603.2</td><td>2626.8</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">DCLV_LC3</td><td>Volts</td><td>2608.1</td><td>2596.3</td><td>2598.9</td><td>2605.5</td><td>2602.4</td><td>2593.5</td><td>2605.0</td><td>2589.6</td><td>2591.2</td><td>2606.3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">DCLV_LC4</td><td>Volts</td><td>2608.1</td><td>2596.3</td><td>2598.9</td><td>2605.5</td><td>2599.6</td><td>2593.5</td><td>2605.0</td><td>2589.6</td><td>2591.2</td><td>2606.3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Line_Freq_LC1</td><td>Hz</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Line_Freq_LC2</td><td>Hz</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Line_Freq_LC3</td><td>Hz</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Line_Freq_LC4</td><td>Hz</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Master_Shutdown1</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Master_Shutdown1</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Master_Shutdown2</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Master_Shutdown2</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Har_Filt_I_LC1</td><td>Amps</td><td>176.2</td><td>180.6</td><td>179.5</td><td>175.6</td><td>179.0</td><td>175.6</td><td>181.7</td><td>176.7</td><td>176.2</td><td>173.4</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Har_Filt_I_LC2</td><td>Amps</td><td>176.2</td><td>179.5</td><td>179.0</td><td>175.6</td><td>175.6</td><td>174.5</td><td>183.9</td><td>175.6</td><td>175.1</td><td>173.9</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Har_Filt_I_LC3</td><td>Amps</td><td>179.0</td><td>180.1</td><td>179.0</td><td>176.7</td><td>175.6</td><td>174.5</td><td>185.0</td><td>177.3</td><td>176.2</td><td>173.9</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Har_Filt_I_LC4</td><td>Amps</td><td>179.0</td><td>180.1</td><td>179.0</td><td>177.3</td><td>176.2</td><td>174.5</td><td>185.0</td><td>177.3</td><td>176.2</td><td>173.9</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Aux_CurrentLC1</td><td>Amps</td><td>187.5</td><td>234.8</td><td>259.1</td><td>253.0</td><td>236.3</td><td>254.6</td><td>211.9</td><td>216.5</td><td>224.1</td><td>254.6</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Aux_CurrentLC2</td><td>Amps</td><td>189.0</td><td>233.2</td><td>257.6</td><td>247.0</td><td>233.2</td><td>256.1</td><td>213.4</td><td>214.9</td><td>221.0</td><td>251.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Aux_CurrentLC3</td><td>Amps</td><td>186.0</td><td>231.7</td><td>233.2</td><td>248.5</td><td>236.3</td><td>254.6</td><td>224.1</td><td>210.4</td><td>225.6</td><td>256.1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Aux_CurrentLC4</td><td>Amps</td><td>186.0</td><td>233.2</td><td>236.3</td><td>230.2</td><td>234.8</td><td>248.5</td><td>222.6</td><td>207.3</td><td>225.6</td><td>256.1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Ph_Temp1</td><td>Deg c</td><td>43.2</td><td>43.2</td><td>43.2</td><td>43.2</td><td>43.2</td><td>43.2</td><td>43.2</td><td>43.1</td><td>43.1</td><td>43.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Ph_Temp1</td><td>Deg c</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.4</td><td>42.6</td><td>42.6</td><td>42.6</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Ph_Temp1</td><td>Deg c</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.2</td><td>42.4</td><td>42.4</td><td>42.2</td><td>42.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Ph_Temp1</td><td>Deg c</td><td>42.2</td><td>42.1</td><td>42.1</td><td>42.1</td><td>42.2</td><td>42.1</td><td>42.1</td><td>42.2</td><td>42.2</td><td>42.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Ph_Temp2</td><td>Deg c</td><td>43.6</td><td>43.4</td><td>43.4</td><td>43.4</td><td>43.4</td><td>43.4</td><td>43.4</td><td>43.4</td><td>43.2</td><td>43.4</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Ph_Temp2</td><td>Deg c</td><td>42.4</td><td>42.6</td><td>42.6</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Ph_Temp2</td><td>Deg c</td><td>42.7</td><td>42.7</td><td>42.7</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.6</td><td>42.6</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Ph_Temp2</td><td>Deg c</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.4</td><td>42.2</td><td>42.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv1_CoolTmp1</td><td>Deg c</td><td>40.1</td><td>41.3</td><td>40.3</td><td>40.3</td><td>40.8</td><td>40.4</td><td>40.1</td><td>40.6</td><td>40.8</td><td>39.9</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv1_CoolTmp2</td><td>Deg c</td><td>42.6</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td><td>42.4</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv2_CoolTmp1</td><td>Deg c</td><td>40.3</td><td>40.1</td><td>40.3</td><td>40.3</td><td>40.3</td><td>40.3</td><td>40.3</td><td>40.3</td><td>40.3</td><td>40.3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv2_CoolTmp2</td><td>Deg c</td><td>42.4</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td><td>42.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv1_Cool_Pr1</td><td>Bar</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv1_Cool_Pr2</td><td>Bar</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv2_Cool_Pr1</td><td>Bar</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Conv2_Cool_Pr2</td><td>Bar</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td><td>2.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BG1_FOilTmp1</td><td>Deg c</td><td>51.9</td><td>53.4</td><td>52.2</td><td>52.2</td><td>52.7</td><td>52.6</td><td>52.2</td><td>52.6</td><td>52.9</td><td>52.1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BG1_TFOilTmp2 </td><td>Deg c</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.6</td><td>52.4</td><td>52.4</td><td>52.4</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BG2_TFOilTmp1</td><td>Deg c</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td><td>52.4</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BG2_TFOilTmp2 </td><td>Deg c</td><td>53.2</td><td>53.2</td><td>53.2</td><td>53.2</td><td>53.2</td><td>53.2</td><td>53.2</td><td>53.2</td><td>53.2</td><td>53.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BG1_TFOil_Pr1 </td><td>Bar</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BG1_TFOil_Pr2</td><td>Bar</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">BG2_TFOil_Pr1</td><td>Bar</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_MCC_Status</td><td>NUM</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_MCC_Status</td><td>NUM</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_MCC_Status</td><td>NUM</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_MCC_Status</td><td>NUM</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td><td>960</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Fan_out&gt;</td><td>0</td><td>OFF</td><td>OFF</td><td>OFF</td><td>OFF</td><td>OFF</td><td>OFF</td><td>OFF</td><td>OFF</td><td>OFF</td><td>OFF</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_DIPHltStat</td><td>NUM</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_DIPHltStat</td><td>NUM</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_DIPHltStat</td><td>NUM</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_DIPHltStat</td><td>NUM</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td><td>32639</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_DOPHltStat</td><td>NUM</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_DOPHltStat</td><td>NUM</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_DOPHltStat</td><td>NUM</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_DOPHltStat</td><td>NUM</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td><td>7039</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Input_Voltage</td><td>Volts</td><td>1042</td><td>1044</td><td>1041</td><td>1043</td><td>1039</td><td>1046</td><td>1034</td><td>1043</td><td>1037</td><td>1036</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Input_Voltage</td><td>Volts</td><td>1056</td><td>1055</td><td>1052</td><td>1053</td><td>1048</td><td>1053</td><td>1044</td><td>1053</td><td>1051</td><td>1045</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Input_Voltage</td><td>Volts</td><td>1048</td><td>1048</td><td>1043</td><td>1046</td><td>1042</td><td>1047</td><td>1046</td><td>1045</td><td>1043</td><td>1049</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Input_Current</td><td>Amps</td><td>83</td><td>70</td><td>71</td><td>66</td><td>82</td><td>61</td><td>79</td><td>78</td><td>74</td><td>70</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Input_Current</td><td>Amps</td><td>110</td><td>103</td><td>108</td><td>93</td><td>94</td><td>101</td><td>97</td><td>100</td><td>92</td><td>91</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Input_Current</td><td>Amps</td><td>21</td><td>35</td><td>39</td><td>40</td><td>58</td><td>41</td><td>48</td><td>48</td><td>53</td><td>19</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_DCLV</td><td>Volts</td><td>642</td><td>612</td><td>630</td><td>619</td><td>649</td><td>614</td><td>657</td><td>627</td><td>626</td><td>615</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_DCLV</td><td>Volts</td><td>642</td><td>644</td><td>657</td><td>633</td><td>620</td><td>640</td><td>621</td><td>643</td><td>621</td><td>625</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_DCLV</td><td>Volts</td><td>651</td><td>588</td><td>551</td><td>604</td><td>595</td><td>595</td><td>651</td><td>630</td><td>621</td><td>623</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_DCLI</td><td>Amps</td><td>97</td><td>77</td><td>84</td><td>92</td><td>94</td><td>87</td><td>84</td><td>93</td><td>90</td><td>85</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_DCLI</td><td>Amps</td><td>133</td><td>118</td><td>122</td><td>111</td><td>113</td><td>118</td><td>117</td><td>116</td><td>112</td><td>104</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_DCLI</td><td>Amps</td><td>13</td><td>54</td><td>103</td><td>69</td><td>55</td><td>74</td><td>29</td><td>106</td><td>70</td><td>10</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_MCC_Ref_Vent_Level</td><td>NUM</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_MCC_Ref_Vent_Level</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_MCC_Ref_Vent_Level</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Ref_Ventilation_Freq</td><td>Hz</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Ref_Ventilation_Freq</td><td>Hz</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Ref_Ventilation_Freq</td><td>Hz</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Output_Frequency</td><td>Hz</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Output_Frequency</td><td>Hz</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Output_Frequency</td><td>Hz</td><td>36</td><td>41</td><td>46</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_RY_Ph_Volt</td><td>Volts</td><td>391</td><td>390</td><td>389</td><td>389</td><td>390</td><td>389</td><td>391</td><td>390</td><td>391</td><td>391</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_RY_Ph_Volt</td><td>Volts</td><td>415</td><td>415</td><td>416</td><td>415</td><td>415</td><td>415</td><td>415</td><td>415</td><td>414</td><td>414</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_RY_Ph_Volt</td><td>Volts</td><td>306</td><td>346</td><td>379</td><td>415</td><td>410</td><td>413</td><td>418</td><td>413</td><td>414</td><td>417</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_YB_Ph_Volt</td><td>Volts</td><td>390</td><td>390</td><td>390</td><td>391</td><td>392</td><td>391</td><td>390</td><td>392</td><td>390</td><td>390</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_YB_Ph_Volt</td><td>Volts</td><td>413</td><td>412</td><td>413</td><td>412</td><td>413</td><td>413</td><td>413</td><td>414</td><td>413</td><td>413</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_YB_Ph_Volt</td><td>Volts</td><td>309</td><td>347</td><td>376</td><td>414</td><td>407</td><td>413</td><td>414</td><td>406</td><td>410</td><td>417</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_R_Ph_Curr</td><td>Amps</td><td>72</td><td>72</td><td>71</td><td>70</td><td>72</td><td>71</td><td>72</td><td>72</td><td>73</td><td>73</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_R_Ph_Curr</td><td>Amps</td><td>105</td><td>105</td><td>105</td><td>104</td><td>104</td><td>103</td><td>104</td><td>103</td><td>103</td><td>102</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_R_Ph_Curr</td><td>Amps</td><td>34</td><td>47</td><td>70</td><td>52</td><td>68</td><td>59</td><td>58</td><td>65</td><td>59</td><td>46</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Y_Ph_Curr</td><td>Amps</td><td>71</td><td>71</td><td>71</td><td>73</td><td>72</td><td>73</td><td>70</td><td>73</td><td>72</td><td>72</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Y_Ph_Curr</td><td>Amps</td><td>101</td><td>100</td><td>101</td><td>100</td><td>101</td><td>101</td><td>101</td><td>101</td><td>102</td><td>102</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Y_Ph_Curr</td><td>Amps</td><td>32</td><td>47</td><td>69</td><td>54</td><td>62</td><td>61</td><td>57</td><td>61</td><td>53</td><td>46</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_B_Ph_Curr</td><td>Amps</td><td>73</td><td>73</td><td>72</td><td>73</td><td>72</td><td>73</td><td>72</td><td>73</td><td>71</td><td>72</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_B_Ph_Curr</td><td>Amps</td><td>103</td><td>101</td><td>102</td><td>100</td><td>100</td><td>99</td><td>100</td><td>99</td><td>99</td><td>99</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_B_Ph_Curr</td><td>Amps</td><td>31</td><td>43</td><td>66</td><td>50</td><td>63</td><td>58</td><td>55</td><td>58</td><td>51</td><td>42</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_IpErLeak_I</td><td>mA</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_IpErLeak_I</td><td>mA</td><td>10</td><td>10</td><td>10</td><td>10</td><td>9</td><td>9</td><td>9</td><td>9</td><td>8</td><td>8</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_IpErLeak_I</td><td>mA</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_OpErLeak_I</td><td>mA</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_OpErLeak_I</td><td>mA</td><td>10</td><td>10</td><td>10</td><td>10</td><td>9</td><td>9</td><td>9</td><td>9</td><td>8</td><td>8</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_OpErLeak_I</td><td>mA</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_BATV</td><td>Volts</td><td>98</td><td>98</td><td>103</td><td>104</td><td>106</td><td>107</td><td>108</td><td>108</td><td>109</td><td>109</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_BATV</td><td>Volts</td><td>98</td><td>98</td><td>102</td><td>104</td><td>105</td><td>107</td><td>108</td><td>108</td><td>109</td><td>109</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_BATI</td><td>Amps</td><td>0</td><td>16</td><td>28</td><td>29</td><td>29</td><td>29</td><td>29</td><td>26</td><td>18</td><td>14</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_BATI</td><td>Amps</td><td>0</td><td>20</td><td>28</td><td>29</td><td>29</td><td>29</td><td>29</td><td>26</td><td>18</td><td>14</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Batt_DCLV</td><td>Volts</td><td>432</td><td>472</td><td>504</td><td>564</td><td>560</td><td>564</td><td>572</td><td>564</td><td>568</td><td>572</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Batt_DCLV</td><td>Volts</td><td>432</td><td>468</td><td>504</td><td>564</td><td>560</td><td>560</td><td>572</td><td>564</td><td>572</td><td>568</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Bat_DCOp_V</td><td>Volts</td><td>97</td><td>102</td><td>105</td><td>106</td><td>108</td><td>109</td><td>110</td><td>110</td><td>110</td><td>110</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Bat_DCOp_V</td><td>Volts</td><td>97</td><td>102</td><td>105</td><td>106</td><td>108</td><td>109</td><td>110</td><td>110</td><td>110</td><td>110</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_DC_Op_Curr</td><td>Amps</td><td>0</td><td>30</td><td>40</td><td>41</td><td>40</td><td>40</td><td>41</td><td>37</td><td>29</td><td>25</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_DC_Op_Curr</td><td>Amps</td><td>0</td><td>33</td><td>40</td><td>40</td><td>40</td><td>40</td><td>42</td><td>37</td><td>29</td><td>25</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_MCC_Status</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_MCC_Status</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_MCC_Status</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1 DSP Heart Beat Fail</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1 Packet Index Stuck</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_THY_HS_TMP</td><td>Deg c</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_INV_HS_TMP</td><td>Deg c</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_THY_HS_TMP</td><td>Deg c</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>53</td><td>54</td><td>53</td><td>53</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_INV_HS_TMP</td><td>Deg c</td><td>57</td><td>57</td><td>57</td><td>57</td><td>57</td><td>57</td><td>57</td><td>57</td><td>57</td><td>57</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_THY_HS_TMP</td><td>Deg c</td><td>45</td><td>45</td><td>45</td><td>45</td><td>45</td><td>45</td><td>45</td><td>45</td><td>45</td><td>45</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_INV_HS_TMP</td><td>Deg c</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_BKCHP_HS_TMP</td><td>Deg c</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_DCDC_HS_TMP</td><td>Deg c</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_BKCHP_HS_TMP</td><td>Deg c</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_DCDC_HS_TMP</td><td>Deg c</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_BKCHP_HS_TMP</td><td>Deg c</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_DCDC_HS_TMP</td><td>Deg c</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_INV_AMB</td><td>Deg c</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_CUB_AMB</td><td>Deg c</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td><td>47</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_INV_AMB</td><td>Deg c</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_CUB_AMB</td><td>Deg c</td><td>49</td><td>49</td><td>49</td><td>49</td><td>49</td><td>49</td><td>49</td><td>49</td><td>49</td><td>49</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_INV_AMB</td><td>Deg c</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_CUB_AMB</td><td>Deg c</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1DCLV770Cnt</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1BCHFiredCnt</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Input_Frequency</td><td>Hz</td><td>50.07</td><td>48.79</td><td>50.43</td><td>49.98</td><td>50.34</td><td>50.55</td><td>49.69</td><td>49.89</td><td>50.37</td><td>50.15</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Dlg_Spr1</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">IC1_DCLV</td><td>NUM</td><td>609.00</td><td>615.00</td><td>631.00</td><td>613.00</td><td>619.00</td><td>614.00</td><td>630.00</td><td>614.00</td><td>618.00</td><td>621.00</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Dlg_Spr6</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Dlg_Spr7</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Dlg_Spr8</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Dlg_Spr9</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC1_Dlg_Spr10</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2DCLV770Cnt</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2BCHFiredCnt</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Input_Frequency</td><td>Hz</td><td>50.83</td><td>49.90</td><td>50.31</td><td>49.77</td><td>50.09</td><td>50.44</td><td>50.11</td><td>50.12</td><td>50.69</td><td>49.51</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Batt_Chrgr_TxF_Primary_Current</td><td>Amps</td><td>0</td><td>2</td><td>2</td><td>3</td><td>3</td><td>3</td><td>0</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">IC2_DCLV</td><td>NUM</td><td>607.00</td><td>629.00</td><td>640.00</td><td>642.00</td><td>630.00</td><td>631.00</td><td>621.00</td><td>636.00</td><td>643.00</td><td>644.00</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Dlg_Spr5</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC2_Dlg_Spr6</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3DCLV770Cnt</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3BCHFiredCnt</td><td>NUM</td><td>0</td><td>0</td><td>11</td><td>15</td><td>15</td><td>15</td><td>15</td><td>15</td><td>15</td><td>15</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Input_Frequency</td><td>Hz</td><td>50.31</td><td>50.08</td><td>49.86</td><td>49.94</td><td>48.60</td><td>49.96</td><td>48.64</td><td>50.12</td><td>50.00</td><td>50.50</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Batt_Chrgr_TxF_Primary_Current</td><td>Amps</td><td>0</td><td>2</td><td>2</td><td>2</td><td>3</td><td>2</td><td>0</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">IC3_DCLV</td><td>NUM</td><td>647.00</td><td>631.00</td><td>577.00</td><td>635.00</td><td>611.00</td><td>617.00</td><td>599.00</td><td>608.00</td><td>602.00</td><td>652.00</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_Index</td><td>NUM</td><td>7954</td><td>7955</td><td>7955</td><td>7955</td><td>7955</td><td>7956</td><td>4359</td><td>7956</td><td>7956</td><td>7444</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC1_Status_Word</td><td>NUM</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TMC1_Stall_Torque</td><td>N-m</td><td>3108</td><td>3106</td><td>3107</td><td>3098</td><td>3106</td><td>3105</td><td>3103</td><td>3107</td><td>3104</td><td>3104</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Slip_Speed</td><td>RPM</td><td>19.4</td><td>19.0</td><td>18.7</td><td>18.4</td><td>18.0</td><td>17.5</td><td>17.8</td><td>17.5</td><td>17.2</td><td>17.1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC1_Uph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC1_Vph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC1_Wph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_PulseMode</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_DiffRPMCntr</td><td>NUM</td><td>247</td><td>247</td><td>247</td><td>247</td><td>247</td><td>247</td><td>247</td><td>247</td><td>247</td><td>247</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_IrphRMS</td><td>Amps</td><td>201</td><td>198</td><td>200</td><td>196</td><td>196</td><td>197</td><td>197</td><td>196</td><td>195</td><td>191</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_IyphRMS</td><td>Amps</td><td>200</td><td>200</td><td>202</td><td>194</td><td>194</td><td>195</td><td>198</td><td>195</td><td>196</td><td>192</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_IbphRMS</td><td>Amps</td><td>202</td><td>200</td><td>203</td><td>196</td><td>196</td><td>196</td><td>196</td><td>195</td><td>193</td><td>194</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_IrybSum</td><td>Amps</td><td>100</td><td>100</td><td>100</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td><td>99</td><td>100</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_Vref</td><td>NUM</td><td>885</td><td>869</td><td>861</td><td>869</td><td>877</td><td>869</td><td>874</td><td>878</td><td>874</td><td>873</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM1_PFAngle</td><td>Deg</td><td>154</td><td>154</td><td>155</td><td>154</td><td>154</td><td>154</td><td>155</td><td>154</td><td>154</td><td>154</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC1_Para_1</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC1_Para_2</td><td>NUM</td><td>76</td><td>76</td><td>77</td><td>77</td><td>77</td><td>77</td><td>78</td><td>77</td><td>78</td><td>77</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC1_Para_3</td><td>NUM</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC1_Para_4</td><td>NUM</td><td>3108</td><td>3106</td><td>3107</td><td>3098</td><td>3106</td><td>3105</td><td>3103</td><td>3107</td><td>3104</td><td>3104</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC1_Para_5</td><td>NUM</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC2_Status_Word</td><td>NUM</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TMC2_Stall_Torque</td><td>N-m</td><td>3102</td><td>3100</td><td>3101</td><td>3092</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3098</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Slip_Speed</td><td>RPM</td><td>19.6</td><td>19.1</td><td>18.8</td><td>18.5</td><td>18.2</td><td>17.8</td><td>17.7</td><td>17.7</td><td>17.4</td><td>17.3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC2_Uph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC2_Vph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC2_Wph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_PulseMode</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_DiffRPMCntr</td><td>NUM</td><td>565</td><td>565</td><td>565</td><td>565</td><td>565</td><td>565</td><td>565</td><td>565</td><td>565</td><td>565</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_IrphRMS</td><td>Amps</td><td>203</td><td>198</td><td>203</td><td>197</td><td>198</td><td>197</td><td>194</td><td>195</td><td>192</td><td>197</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_IyphRMS</td><td>Amps</td><td>202</td><td>197</td><td>200</td><td>198</td><td>199</td><td>198</td><td>193</td><td>198</td><td>193</td><td>194</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_IbphRMS</td><td>Amps</td><td>204</td><td>199</td><td>201</td><td>197</td><td>196</td><td>200</td><td>193</td><td>196</td><td>192</td><td>195</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_IrybSum</td><td>Amps</td><td>100</td><td>100</td><td>99</td><td>100</td><td>100</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_Vref</td><td>NUM</td><td>885</td><td>870</td><td>874</td><td>874</td><td>882</td><td>875</td><td>870</td><td>873</td><td>876</td><td>877</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM2_PFAngle</td><td>Deg</td><td>155</td><td>154</td><td>154</td><td>155</td><td>154</td><td>154</td><td>155</td><td>155</td><td>155</td><td>154</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC2_Para_1</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC2_Para_2</td><td>NUM</td><td>76</td><td>76</td><td>77</td><td>77</td><td>77</td><td>77</td><td>77</td><td>78</td><td>78</td><td>78</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC2_Para_3</td><td>NUM</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC2_Para_4</td><td>NUM</td><td>3102</td><td>3100</td><td>3101</td><td>3092</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3098</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC2_Para_5</td><td>NUM</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC3_Status_Word</td><td>NUM</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td><td>258</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TMC3_Stall_Torque</td><td>N-m</td><td>3105</td><td>3103</td><td>3104</td><td>3095</td><td>3103</td><td>3102</td><td>3100</td><td>3104</td><td>3101</td><td>3101</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Slip_Speed</td><td>RPM</td><td>19.0</td><td>18.8</td><td>18.4</td><td>18.0</td><td>17.8</td><td>17.6</td><td>17.5</td><td>17.3</td><td>17.1</td><td>16.9</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC3_Uph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC3_Vph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC3_Wph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_PulseMode</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_DiffRPMCntr</td><td>NUM</td><td>1827</td><td>1828</td><td>1828</td><td>1828</td><td>1828</td><td>1828</td><td>1828</td><td>1828</td><td>1828</td><td>1828</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_IrphRMS</td><td>Amps</td><td>197</td><td>201</td><td>196</td><td>199</td><td>199</td><td>199</td><td>198</td><td>192</td><td>192</td><td>190</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_IyphRMS</td><td>Amps</td><td>197</td><td>203</td><td>197</td><td>198</td><td>195</td><td>201</td><td>199</td><td>191</td><td>191</td><td>191</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_IbphRMS</td><td>Amps</td><td>198</td><td>203</td><td>199</td><td>199</td><td>201</td><td>201</td><td>199</td><td>192</td><td>191</td><td>193</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_IrybSum</td><td>Amps</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>99</td><td>100</td><td>100</td><td>99</td><td>100</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_Vref</td><td>NUM</td><td>873</td><td>867</td><td>865</td><td>866</td><td>874</td><td>864</td><td>863</td><td>863</td><td>865</td><td>863</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM3_PFAngle</td><td>Deg</td><td>154</td><td>155</td><td>154</td><td>154</td><td>154</td><td>155</td><td>155</td><td>155</td><td>155</td><td>154</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC3_Para_1</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC3_Para_2</td><td>NUM</td><td>76</td><td>76</td><td>76</td><td>77</td><td>77</td><td>78</td><td>78</td><td>78</td><td>78</td><td>78</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC3_Para_3</td><td>NUM</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC3_Para_4</td><td>NUM</td><td>3105</td><td>3103</td><td>3104</td><td>3095</td><td>3103</td><td>3102</td><td>3100</td><td>3104</td><td>3101</td><td>3101</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC3_Para_5</td><td>NUM</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC4_Status_Word</td><td>NUM</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TMC4_Stall_Torque</td><td>N-m</td><td>3102</td><td>3100</td><td>3101</td><td>3092</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3098</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Slip_Speed</td><td>RPM</td><td>19.6</td><td>19.1</td><td>18.7</td><td>18.4</td><td>18.2</td><td>17.7</td><td>17.6</td><td>17.4</td><td>17.1</td><td>17.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC4_Uph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC4_Vph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC4_Wph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_PulseMode</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_DiffRPMCntr</td><td>NUM</td><td>2611</td><td>2611</td><td>2611</td><td>2611</td><td>2611</td><td>2611</td><td>2611</td><td>2611</td><td>2611</td><td>2611</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_IrphRMS</td><td>Amps</td><td>199</td><td>196</td><td>196</td><td>192</td><td>191</td><td>196</td><td>186</td><td>187</td><td>186</td><td>187</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_IyphRMS</td><td>Amps</td><td>200</td><td>200</td><td>201</td><td>190</td><td>192</td><td>194</td><td>188</td><td>189</td><td>186</td><td>190</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_IbphRMS</td><td>Amps</td><td>203</td><td>196</td><td>197</td><td>190</td><td>191</td><td>196</td><td>186</td><td>188</td><td>185</td><td>190</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_IrybSum</td><td>Amps</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_Vref</td><td>NUM</td><td>986</td><td>983</td><td>984</td><td>982</td><td>989</td><td>993</td><td>975</td><td>978</td><td>980</td><td>973</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM4_PFAngle</td><td>Deg</td><td>150</td><td>150</td><td>150</td><td>151</td><td>150</td><td>150</td><td>150</td><td>150</td><td>150</td><td>150</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC4_Para_1</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC4_Para_2</td><td>NUM</td><td>72</td><td>72</td><td>73</td><td>73</td><td>73</td><td>73</td><td>73</td><td>73</td><td>73</td><td>74</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC4_Para_3</td><td>NUM</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC4_Para_4</td><td>NUM</td><td>3102</td><td>3100</td><td>3101</td><td>3092</td><td>3100</td><td>3099</td><td>3097</td><td>3101</td><td>3098</td><td>3098</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC4_Para_5</td><td>NUM</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC5_Status_Word</td><td>NUM</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TMC5_Stall_Torque</td><td>N-m</td><td>3104</td><td>3101</td><td>3102</td><td>3093</td><td>3100</td><td>3099</td><td>3098</td><td>3102</td><td>3099</td><td>3098</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Slip_Speed</td><td>RPM</td><td>19.0</td><td>18.8</td><td>18.4</td><td>18.0</td><td>17.8</td><td>17.3</td><td>17.1</td><td>17.0</td><td>16.9</td><td>16.8</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC5_Uph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC5_Vph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC5_Wph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_PulseMode</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_DiffRPMCntr</td><td>NUM</td><td>2289</td><td>2289</td><td>2289</td><td>2289</td><td>2289</td><td>2289</td><td>2289</td><td>2289</td><td>2289</td><td>2289</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_IrphRMS</td><td>Amps</td><td>198</td><td>198</td><td>193</td><td>193</td><td>192</td><td>190</td><td>188</td><td>190</td><td>188</td><td>187</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_IyphRMS</td><td>Amps</td><td>200</td><td>195</td><td>192</td><td>196</td><td>194</td><td>191</td><td>187</td><td>190</td><td>190</td><td>186</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_IbphRMS</td><td>Amps</td><td>196</td><td>195</td><td>195</td><td>194</td><td>195</td><td>188</td><td>189</td><td>190</td><td>188</td><td>188</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_IrybSum</td><td>Amps</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>99</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_Vref</td><td>NUM</td><td>983</td><td>982</td><td>977</td><td>976</td><td>985</td><td>983</td><td>978</td><td>977</td><td>978</td><td>969</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM5_PFAngle</td><td>Deg</td><td>150</td><td>150</td><td>151</td><td>151</td><td>151</td><td>150</td><td>150</td><td>150</td><td>151</td><td>151</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC5_Para_1</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC5_Para_2</td><td>NUM</td><td>72</td><td>72</td><td>73</td><td>73</td><td>73</td><td>73</td><td>73</td><td>73</td><td>74</td><td>74</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC5_Para_3</td><td>NUM</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC5_Para_4</td><td>NUM</td><td>3103</td><td>3101</td><td>3102</td><td>3093</td><td>3101</td><td>3100</td><td>3098</td><td>3102</td><td>3099</td><td>3099</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC5_Para_5</td><td>NUM</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC6_Status_Word</td><td>NUM</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td><td>266</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TMC6_Stall_Torque</td><td>N-m</td><td>3102</td><td>3099</td><td>3101</td><td>3091</td><td>3098</td><td>3097</td><td>3096</td><td>3100</td><td>3097</td><td>3096</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Slip_Speed</td><td>RPM</td><td>18.9</td><td>18.8</td><td>18.3</td><td>17.9</td><td>17.7</td><td>17.3</td><td>17.2</td><td>17.2</td><td>16.9</td><td>16.8</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC6_Uph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC6_Vph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TC6_Wph_Vcetype</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_PulseMode</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_DiffRPMCntr</td><td>NUM</td><td>3040</td><td>3040</td><td>3040</td><td>3040</td><td>3040</td><td>3040</td><td>3040</td><td>3040</td><td>3040</td><td>3040</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_IrphRMS</td><td>Amps</td><td>199</td><td>203</td><td>197</td><td>197</td><td>196</td><td>195</td><td>195</td><td>197</td><td>193</td><td>195</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_IyphRMS</td><td>Amps</td><td>203</td><td>204</td><td>195</td><td>201</td><td>198</td><td>194</td><td>197</td><td>199</td><td>195</td><td>198</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_IbphRMS</td><td>Amps</td><td>202</td><td>202</td><td>197</td><td>199</td><td>199</td><td>194</td><td>197</td><td>198</td><td>192</td><td>196</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_IrybSum</td><td>Amps</td><td>99</td><td>100</td><td>100</td><td>100</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_Vref</td><td>NUM</td><td>861</td><td>859</td><td>855</td><td>857</td><td>858</td><td>858</td><td>850</td><td>863</td><td>858</td><td>851</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TM6_PFAngle</td><td>Deg</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td><td>153</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC6_Para_1</td><td>NUM</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC6_Para_2</td><td>NUM</td><td>75</td><td>75</td><td>75</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>76</td><td>77</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC6_Para_3</td><td>NUM</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC6_Para_4</td><td>NUM</td><td>3102</td><td>3099</td><td>3100</td><td>3091</td><td>3098</td><td>3097</td><td>3096</td><td>3100</td><td>3097</td><td>3096</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ACC_TC6_Para_5</td><td>NUM</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC1_System_Para1</td><td>NUM</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC1_Precharging_Cnt</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_DCLVRef</td><td>Volts</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Is_ref_mag</td><td>Amps</td><td>-739.9</td><td>-754.9</td><td>-757.0</td><td>-741.9</td><td>-719.9</td><td>-727.0</td><td>-732.0</td><td>-723.4</td><td>-722.8</td><td>-716.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_VsPeak</td><td>Volts</td><td>2038.5</td><td>2033.6</td><td>2039.7</td><td>2032.4</td><td>2027.5</td><td>2036.1</td><td>2037.3</td><td>2032.5</td><td>2020.3</td><td>2038.5</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_IsPeak</td><td>Amps</td><td>997.6</td><td>1015.1</td><td>978.5</td><td>962.4</td><td>965.3</td><td>947.8</td><td>977.1</td><td>985.8</td><td>966.7</td><td>944.8</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Vs_10mSec_Rms</td><td>Volts</td><td>1395.5</td><td>1386.6</td><td>1390.0</td><td>1396.7</td><td>1411.0</td><td>1375.8</td><td>1394.5</td><td>1398.1</td><td>1388.5</td><td>1391.4</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_IpPeak</td><td>Amps</td><td>145.8</td><td>145.0</td><td>139.9</td><td>139.9</td><td>140.6</td><td>134.8</td><td>142.1</td><td>137.7</td><td>136.2</td><td>135.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_OVL_I</td><td>Amps</td><td>1.2</td><td>1.2</td><td>1.1</td><td>1.0</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1.2</td><td>1.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Flag_Sts2TC</td><td>NUM</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_DCL_EFlt_V</td><td>Volts</td><td>1958.0</td><td>1948.8</td><td>1959.8</td><td>1951.8</td><td>1953.9</td><td>1944.7</td><td>1944.9</td><td>1942.6</td><td>1958.5</td><td>1952.1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Ki_Out</td><td>Amps</td><td>-484.1</td><td>-493.2</td><td>-478.6</td><td>-481.8</td><td>-472.6</td><td>-468.5</td><td>-471.6</td><td>-475.1</td><td>-476.7</td><td>-461.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_OHE_Pwr_Der_Fact</td><td>NUM</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC1_System_Para2</td><td>NUM</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC1_System_Para3</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC1_System_Para4</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1__Is_Rms_With_Ripple</td><td>Amps</td><td>549.3</td><td>556.7</td><td>510.7</td><td>523.2</td><td>522.8</td><td>508.8</td><td>532.3</td><td>531.6</td><td>526.9</td><td>510.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_DCLV_Max</td><td>Volts</td><td>2661</td><td>2666</td><td>2674</td><td>2662</td><td>2653</td><td>2642</td><td>2651</td><td>2678</td><td>2669</td><td>2650</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_PLL_Ph_Err</td><td>Deg</td><td>0.00</td><td>-0.05</td><td>0.03</td><td>0.01</td><td>0.01</td><td>-0.05</td><td>0.02</td><td>0.01</td><td>0.01</td><td>0.03</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_Is_Ret_Rms</td><td>Amps</td><td>528.0</td><td>525.0</td><td>529.0</td><td>511.3</td><td>503.6</td><td>511.3</td><td>502.8</td><td>502.8</td><td>499.7</td><td>497.1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LTC1_Terminal_Temp</td><td>Deg c</td><td>507</td><td>507</td><td>507</td><td>507</td><td>507</td><td>507</td><td>507</td><td>507</td><td>507</td><td>507</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC1_PWM_Phase_Shift</td><td>NUM</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC2_System_Para1</td><td>NUM</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC2_Precharging_Cnt</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_DCLVRef</td><td>Volts</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Is_ref_mag</td><td>Amps</td><td>-739.9</td><td>-766.1</td><td>-757.0</td><td>-741.9</td><td>-719.9</td><td>-727.0</td><td>-732.0</td><td>-724.9</td><td>-722.8</td><td>-716.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_VsPeak</td><td>Volts</td><td>2031.2</td><td>2027.5</td><td>2032.5</td><td>2031.2</td><td>2021.4</td><td>2033.6</td><td>2017.7</td><td>2031.3</td><td>2020.3</td><td>2031.2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_IsPeak</td><td>Amps</td><td>988.7</td><td>990.2</td><td>950.7</td><td>1000.4</td><td>939.0</td><td>934.6</td><td>969.6</td><td>974.1</td><td>946.3</td><td>928.7</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Vs_10mSec_Rms</td><td>Volts</td><td>1392.3</td><td>1392.6</td><td>1386.3</td><td>1396.8</td><td>1391.1</td><td>1390.9</td><td>1390.7</td><td>1387.5</td><td>1388.1</td><td>1380.3</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_IpPeak</td><td>Amps</td><td>145.0</td><td>145.0</td><td>139.1</td><td>139.9</td><td>140.6</td><td>135.5</td><td>142.8</td><td>139.1</td><td>136.9</td><td>135.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_OVL_I</td><td>Amps</td><td>1.0</td><td>1.1</td><td>1.0</td><td>1.1</td><td>1.0</td><td>1.1</td><td>1.0</td><td>1.0</td><td>1.1</td><td>1.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Flag_Sts2TC</td><td>NUM</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_DCL_EFlt_V</td><td>Volts</td><td>1947.7</td><td>1948.2</td><td>1936.7</td><td>1947.0</td><td>1957.2</td><td>1950.8</td><td>1946.7</td><td>1933.6</td><td>1954.9</td><td>1945.4</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_Ki_Out</td><td>Amps</td><td>-475.3</td><td>-504.5</td><td>-496.0</td><td>-486.0</td><td>-464.3</td><td>-474.2</td><td>-479.5</td><td>-471.7</td><td>-473.6</td><td>-465.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_OHE_Pwr_Der_Fact</td><td>NUM</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC2_System_Para2</td><td>NUM</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC2_System_Para3</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC2_System_Para4</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2__Is_Rms_With_Ripple</td><td>Amps</td><td>541.1</td><td>540.4</td><td>515.2</td><td>531.4</td><td>505.2</td><td>501.8</td><td>526.2</td><td>533.8</td><td>511.2</td><td>494.8</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_DCLV_Max</td><td>volts</td><td>2676</td><td>2660</td><td>2710</td><td>2670</td><td>2671</td><td>2730</td><td>2722</td><td>2687</td><td>2664</td><td>2701</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_PLL_Ph_Err</td><td>deg</td><td>0.02</td><td>-0.07</td><td>0.01</td><td>0.01</td><td>0.01</td><td>0.00</td><td>0.01</td><td>0.01</td><td>0.02</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2__LFF_I</td><td>Amps</td><td>529.5</td><td>522.9</td><td>521.9</td><td>512.0</td><td>510.8</td><td>505.7</td><td>504.4</td><td>505.6</td><td>498.5</td><td>501.2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LTC1_Conv_Temp</td><td>Deg c</td><td>514.0</td><td>514.0</td><td>513.0</td><td>513.0</td><td>513.0</td><td>514.0</td><td>513.0</td><td>514.0</td><td>514.0</td><td>513.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC2_PWM_Phase_Shift</td><td>NUM</td><td>342</td><td>342</td><td>342</td><td>342</td><td>342</td><td>342</td><td>342</td><td>342</td><td>342</td><td>342</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC3_System_Para1</td><td>NUM</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC3_Precharging_Cnt</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_DCLVRef</td><td>volts</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Is_ref_mag</td><td>Amps</td><td>-789.1</td><td>-771.1</td><td>-771.9</td><td>-764.3</td><td>-759.4</td><td>-744.6</td><td>-767.1</td><td>-723.6</td><td>-727.5</td><td>-743.8</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_VsPeak</td><td>volts</td><td>2032.5</td><td>2026.3</td><td>2031.3</td><td>2028.8</td><td>2017.7</td><td>2036.1</td><td>2014.1</td><td>2028.8</td><td>2015.4</td><td>2030.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_IsPeak</td><td>Amps</td><td>1003.3</td><td>969.7</td><td>988.7</td><td>979.9</td><td>953.6</td><td>952.1</td><td>996.1</td><td>949.2</td><td>917.0</td><td>959.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Vs_10mSec_Rms</td><td>volts</td><td>1391.9</td><td>1389.8</td><td>1390.2</td><td>1387.6</td><td>1390.4</td><td>1388.8</td><td>1389.5</td><td>1390.0</td><td>1385.2</td><td>1387.9</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_IpPeak</td><td>Amps</td><td>148.6</td><td>150.8</td><td>142.8</td><td>144.2</td><td>145.0</td><td>139.1</td><td>147.2</td><td>142.0</td><td>141.3</td><td>139.1</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_OVL_I</td><td>Amps</td><td>1.2</td><td>1.2</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1.2</td><td>1.1</td><td>1.1</td><td>1.1</td><td>1.1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Flag_Sts2TC</td><td>NUM</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td><td>520.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_DCL_EFlt_V</td><td>Volts</td><td>1941.1</td><td>1942.6</td><td>1941.3</td><td>1943.4</td><td>1944.9</td><td>1951.3</td><td>1959.8</td><td>1941.8</td><td>1943.4</td><td>1943.1</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_Ki_Out</td><td>Amps</td><td>-784.1</td><td>-773.4</td><td>-772.1</td><td>-760.8</td><td>-759.7</td><td>-749.1</td><td>-763.9</td><td>-730.3</td><td>-733.2</td><td>-739.7</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_OHE_Pwr_Der_Fact</td><td>NUM</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC3_System_Para2</td><td>NUM</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC3_System_Para3</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC3_System_Para4</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3__Is_Rms_With_Ripple</td><td>Amps</td><td>558.5</td><td>524.1</td><td>550.2</td><td>537.1</td><td>523.6</td><td>529.6</td><td>546.3</td><td>527.3</td><td>495.5</td><td>525.6</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_DCLV_Max</td><td>Volts</td><td>2703</td><td>2647</td><td>2706</td><td>2637</td><td>2670</td><td>2622</td><td>2656</td><td>2618</td><td>2655</td><td>2637</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_PLL_Ph_Err</td><td>deg</td><td>0.00</td><td>0.00</td><td>0.01</td><td>0.00</td><td>0.01</td><td>0.01</td><td>-0.07</td><td>0.00</td><td>0.03</td><td>-0.07</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3__LFF_I</td><td>Amps</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LTC2_Terminal_Temp</td><td>Deg c</td><td>511</td><td>511</td><td>511</td><td>511</td><td>511</td><td>511</td><td>511</td><td>511</td><td>511</td><td>511</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC3_PWM_Phase_Shift</td><td>NUM</td><td>350.99</td><td>350.99</td><td>350.99</td><td>350.99</td><td>350.99</td><td>350.99</td><td>350.99</td><td>350.99</td><td>350.99</td><td>350.99</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC4_System_Para1</td><td>NUM</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td><td>35808</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC4_Precharging_Cnt</td><td>NUM</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VTOP_GDPSFailOrRxopen</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VTOP_DiBydt_Or_OFF2ON</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VTOP_Shootthrw_Or_ShortCkt</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VTOP_VceHighFreq_Or_ON2OFF</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VTOP_GateVoltFlt</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VTOP_TxFailure</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VTOP_BasedonCnt</td><td>0</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_DCLVRef</td><td>Volts</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td><td>2600</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Is_ref_mag</td><td>Amps</td><td>-786.3</td><td>-771.1</td><td>-771.9</td><td>-763.7</td><td>-759.4</td><td>-744.6</td><td>-767.1</td><td>-723.6</td><td>-727.8</td><td>-743.8</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_VsPeak</td><td>Volts</td><td>2028.7</td><td>2025.1</td><td>2037.3</td><td>2031.2</td><td>2015.3</td><td>2038.5</td><td>2016.5</td><td>2027.6</td><td>2012.9</td><td>2032.4</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_IsPeak</td><td>Amps</td><td>991.7</td><td>994.6</td><td>980.0</td><td>980.0</td><td>993.2</td><td>950.7</td><td>987.3</td><td>952.1</td><td>963.9</td><td>959.5</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Vs_10mSec_Rms</td><td>Volts</td><td>1394.3</td><td>1389.5</td><td>1391.4</td><td>1383.2</td><td>1392.8</td><td>1389.0</td><td>1391.9</td><td>1391.6</td><td>1380.9</td><td>1389.5</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_IpPeak</td><td>Amps</td><td>148.6</td><td>147.2</td><td>139.8</td><td>139.1</td><td>145.0</td><td>139.8</td><td>145.7</td><td>140.6</td><td>139.1</td><td>136.9</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_OVL_I</td><td>Amps</td><td>1.5</td><td>1.5</td><td>1.4</td><td>1.5</td><td>1.5</td><td>1.4</td><td>1.5</td><td>1.5</td><td>1.5</td><td>1.4</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Flag_Sts2TC</td><td>NUM</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td><td>512.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_DCL_EFlt_V</td><td>Volts</td><td>1946.7</td><td>1944.9</td><td>1949.0</td><td>1941.3</td><td>1946.7</td><td>1951.3</td><td>1968.5</td><td>1944.4</td><td>1945.2</td><td>1944.7</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_Ki_Out</td><td>Amps</td><td>-786.3</td><td>-771.1</td><td>-771.9</td><td>-763.7</td><td>-759.4</td><td>-744.6</td><td>-767.1</td><td>-723.6</td><td>-727.8</td><td>-743.8</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_OHE_Pwr_Der_Fact</td><td>NUM</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td><td>32768.0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC4_System_Para2</td><td>NUM</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC4_System_Para3</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">ALC4_System_Para4</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4__Is_Rms_With_Ripple</td><td>Amps</td><td>554.5</td><td>554.6</td><td>540.4</td><td>534.8</td><td>551.2</td><td>520.4</td><td>550.4</td><td>521.7</td><td>528.4</td><td>526.7</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_DCLV_Max</td><td>Volts</td><td>2632</td><td>2625</td><td>2666</td><td>2659</td><td>2619</td><td>2648</td><td>2658</td><td>2610</td><td>2657</td><td>2675</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_PLL_Ph_Err</td><td>deg</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.02</td><td>-0.07</td><td>0.00</td><td>-0.04</td><td>0.00</td><td>0.03</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4__LFF_I</td><td>Amps</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LTC2_Conv_Temp</td><td>Deg c</td><td>510</td><td>511</td><td>510</td><td>510</td><td>510</td><td>510</td><td>510</td><td>510</td><td>510</td><td>510</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LC4_PWM_Phase_Shift</td><td>NUM</td><td>333.00</td><td>333.00</td><td>333.00</td><td>333.00</td><td>333.00</td><td>333.00</td><td>333.00</td><td>333.00</td><td>333.00</td><td>333.00</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Dlg_Spr5</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">AC3_Dlg_Spr6</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Fault_Count</td><td>NUM</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td><td>106</td><td>107</td><td>107</td><td>107</td><td>107</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">FDP_Remark</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">DMC_Version_Number</td><td>NUM</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td><td>02.03.07</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">IDL_Version_Number</td><td>NUM</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Memory_Card_Version</td><td>NUM</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td><td>00.00.00</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">LRMS_Version_Number</td><td>NUM</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td><td>08.08.00</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Latitude</td><td>NUM</td><td>21</td><td>21</td><td>21</td><td>21</td><td>21</td><td>21</td><td>21</td><td>21</td><td>21</td><td>21</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Longitude</td><td>NUM</td><td>81</td><td>81</td><td>81</td><td>81</td><td>81</td><td>81</td><td>81</td><td>81</td><td>81</td><td>81</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TFT1_SBC_Temperature</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TFT1_Backlight_Temperature</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TFT2_SBC_Temperature</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:#EFF3FB;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">TFT2_Backlight_Temperature</td><td>NUM</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr align="center" style="background-color:White;white-space:nowrap;">
+			<td class="wrapfd" align="left" style="font-weight:bold;">Loco_ID</td><td>NUM</td><td>30699</td><td>30699</td><td>30699</td><td>30699</td><td>30699</td><td>30699</td><td>30699</td><td>30699</td><td>30699</td><td>30699</td>
+		</tr>
+	</table>
+</div>
+                                    </div>
+                            </div>
+                        </div>
