@@ -1,77 +1,145 @@
 # Inverter Short Circuit Faults
 
-Same procedure as for Earth faults.
+Same procedure as for Earth Faults.
 
-## What is role of Auxillary converter in electric locomtives?
+---
 
-It provides power to auxillary machines which helps in cooling the system.
-Like there are around 17 machines which are supplied power from this converter.
-Like traction motor blower to cool the traction motors, oil cooling blower to cool the radiator of transformer, cooling pump for the traction converter coolant, compressor to supply air for pneumatic system etc.
+## What is the Role of the Auxiliary Converter in Electric Locomotives?
 
-## Primary reasons For Inverter short circuit faults are:
+The auxiliary converter provides power to auxiliary machines, which help in cooling and supporting the locomotive’s electrical systems. Around 17 machines receive power from this converter, including:
 
-- Short circuit or puncture of IGBT in the Inverter modules.
-- Flash in the inverter circuit, earthing of Inverter components due to high current .
-- In this case both earth fault and Inverter short circuit will be recorded.
+- Traction motor blowers for cooling traction motors
+- Oil cooling blowers for cooling the transformer's radiator
+- Cooling pumps for the traction converter coolant
+- Compressors for supplying air to the pneumatic system
 
-## Auxillary Converter Parameters
+---
 
-- 2 x 130 kVA auxillary converter,
-- Nominal Voltage: 830 VAC, 1 Phase
-- Frequency: 50 Hz
-- Output Data:
-  - Power: 2 x 130 kVA at 0.8 PF
-  - AC output: 3 x 415 VAC, 50 Hz, Sine wave, VVVF
-  - DC Output: 2.2 kW, 110 VDC, 20 A
-- Control System:
-  - Communication Bus: CAN/Ethernet/MVB
-  - Service Signal Connector: RS485
+## Primary Reasons for Inverter Short Circuit Faults
 
-## Parameters Which can be relevant to Inverter faults are:
+- Short circuit or puncture of IGBTs in the inverter modules
+- Flashover in the inverter circuit or earthing of inverter components due to high current
+- Both Earth Fault and Inverter Short Circuit Fault are recorded in such cases
 
-- There are 3 auxillary converters: Aux1, Aux2,Aux3.
-- Aux1 works at fixed frequency 50 Hz.
-- Aux2 works at 2 different frequencies 47Hz, 50 Hz depending upon temeprature of traction motors.
-- Aux3 works at 2 different frequencies.
-- Input voltages R,Y,B of all three converters
-- Input current (phase) of all 3 converters.
-- Operating frequencies
-- Temperature of all three Inverter modules.
-- Output RYB voltages and currents for each aux converter.
+---
 
-# Preliminary Data Analysis
+## Auxiliary Converter Parameters
 
-Upload both before and after fault .csv (comma separated values) files in Anaconda, VisualStudio, Colab.
+- **Configuration:** 2 × 130 kVA auxiliary converters
+- **Nominal Voltage:** 830 VAC, Single Phase
+- **Frequency:** 50 Hz
 
-### Analyse the data types of each column in both.
+### Output Data
 
-### Convert the timestamp column to datetime format.
+- **Power:** 2 × 130 kVA at 0.8 Power Factor
+- **AC Output:** 3 × 415 VAC, 50 Hz, Sine wave, VVVF
+- **DC Output:** 2.2 kW, 110 VDC, 20 A
 
-### For categorical columns use the get_dummies function to convert it to a numeric column.
+### Control System
 
-### Eliminate all columns whose value is the same for all 10 instances.
+- **Communication Bus:** CAN / Ethernet / MVB
+- **Service Signal Connector:** RS485
 
-### Add a column 'fault_label' to differentiate between before and after fault cases.
+---
 
-### Combine both the data frames of after and before faults.
+## Parameters Relevant to Inverter Faults
 
-Now the combined data frame is ready for further investigation.
-Use group by function to get mean of each column for label_label=0 and fault_label=1. For example,
-mean_comparison= combined_data.groupby( 'fault_label')
+- There are three auxiliary converters: **Aux1**, **Aux2**, and **Aux3**
+- **Aux1:** Operates at a fixed frequency of 50 Hz
+- **Aux2 & Aux3:** Operate at dual frequencies (e.g., 47 Hz and 50 Hz), depending on the traction motor temperature
+- **Monitoring Parameters:**
+  - Input voltages (R, Y, B phases) for each converter
+  - Input current (per phase) for each converter
+  - Operating frequency of each converter
+  - Temperature of all three inverter modules
+  - Output RYB voltages and currents for each auxiliary converter
 
-compare the mean values for each column before fault and after fault to find all columns whose values have changed after fault.
-Save all the columns whose values have changed after fault.
+---
 
-# Data Types
+# Preliminary Data Analysis (Excel-Based Approach)
 
-### Numeric Types: int64, float64
+Instead of using CSV files, this analysis directly reads Excel `.xlsx` files using **Pandas**.
 
-### Object Type: object
+### Step-by-Step Instructions:
 
-### Categorical Type: category
+1. Save your data files (before and after fault) in `.xlsx` format (e.g., `before_fault.xlsx`, `after_fault.xlsx`).
 
-### Datetime Types: datetime64, timedelta64
+2. Load the Excel files into Python using `pandas.read_excel()`:
 
-### Boolean Type: bool
+   ```python
+   import pandas as pd
 
-### Complex Numbers: complex
+   before_df = pd.read_excel("before_fault.xlsx")
+   after_df = pd.read_excel("after_fault.xlsx")
+   ```
+
+3. **Inspect data types** using:
+
+   ```python
+   print(before_df.dtypes)
+   ```
+
+4. Convert any **timestamp columns** to `datetime` format:
+
+   ```python
+   before_df["timestamp"] = pd.to_datetime(before_df["timestamp"])
+   after_df["timestamp"] = pd.to_datetime(after_df["timestamp"])
+   ```
+
+5. Convert **categorical columns** to numeric using one-hot encoding:
+
+   ```python
+   before_df = pd.get_dummies(before_df)
+   after_df = pd.get_dummies(after_df)
+   ```
+
+6. Remove columns that are **constant across all rows**:
+
+   ```python
+   before_df = before_df.loc[:, (before_df != before_df.iloc[0]).any()]
+   after_df = after_df.loc[:, (after_df != after_df.iloc[0]).any()]
+   ```
+
+7. Add a `fault_label` column:
+
+   ```python
+   before_df["fault_label"] = 0
+   after_df["fault_label"] = 1
+   ```
+
+8. Combine the data:
+
+   ```python
+   combined_data = pd.concat([before_df, after_df], ignore_index=True)
+   ```
+
+---
+
+## Comparative Analysis
+
+Use the `groupby()` function to compute the **mean of each column** based on `fault_label`.
+
+```python
+mean_comparison = combined_data.groupby("fault_label").mean()
+```
+
+Then compare the mean values of all columns between:
+
+- `fault_label = 0` → Before Fault
+- `fault_label = 1` → After Fault
+
+Identify which parameters show significant changes after the fault. Save or log all such columns for further investigation.
+
+---
+
+# Data Types in Pandas
+
+| Type               | Description                     |
+| ------------------ | ------------------------------- |
+| `int64`, `float64` | Numeric types                   |
+| `object`           | Text/categorical values         |
+| `category`         | Categorical type (efficient)    |
+| `datetime64`       | Date and time values            |
+| `timedelta64`      | Time durations                  |
+| `bool`             | Boolean values (`True`/`False`) |
+| `complex`          | Complex numbers                 |
