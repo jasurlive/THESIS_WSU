@@ -1,7 +1,5 @@
 # Inverter Short Circuit Faults
 
-Same procedure as for Earth Faults.
-
 ---
 
 ## What is the Role of the Auxiliary Converter in Electric Locomotives?
@@ -58,7 +56,7 @@ The auxiliary converter provides power to auxiliary machines, which help in cool
 
 # Preliminary Data Analysis (Excel-Based Approach)
 
-Instead of using CSV files, this analysis directly reads Excel `.xlsx` files using **Pandas**.
+This analysis directly reads Excel `.xlsx` files using **Pandas**.
 
 ### Step-by-Step Instructions:
 
