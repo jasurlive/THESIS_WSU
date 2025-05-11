@@ -75,62 +75,72 @@ sorted_df = sorted_df.fillna("N/A")
 
 # === Plotting ===
 
-# Determine grid size
-num_cols = 10
-num_rows = (len(sorted_df.iloc[2:]) // num_cols) + 1
-aspect_ratio = max(num_rows, num_cols)
-
-fig, axes = plt.subplots(
-    num_rows, num_cols, figsize=(aspect_ratio * 3, aspect_ratio * 3)
+# Prepare data for a grouped barplot, sorted by percentage change (descending)
+plot_data = sorted_df.iloc[2:].copy()
+plot_data = plot_data.replace("N/A", pd.NA)
+plot_data = plot_data.dropna(
+    subset=["Mean_Before_Fault", "Mean_After_Fault", "Absolute_Percentage_Change"]
 )
-fig.tight_layout(pad=5.0)
-axes = axes.flatten()
+plot_data = plot_data.sort_values(by="Absolute_Percentage_Change", ascending=False)
 
-for idx, (index, row) in enumerate(sorted_df.iloc[2:].iterrows()):
-    field_name = row.iloc[0]
-    unit = row.iloc[1]
-    mean_before = row.iloc[2]
-    mean_after = row.iloc[3]
+fields = plot_data.iloc[:, 0]  # Field Name
+units = plot_data.iloc[:, 1]  # Unit
 
-    data = {"Field Name": ["Before", "After"], "Mean Value": [mean_before, mean_after]}
+x_labels = [f"{name} ({unit})" for name, unit in zip(fields, units)]
+mean_before = plot_data["Mean_Before_Fault"].astype(float).values
+mean_after = plot_data["Mean_After_Fault"].astype(float).values
 
-    plot_df = pd.DataFrame(data)
+import numpy as np
 
-    ax = axes[idx]
+x = np.arange(len(x_labels))  # label locations
+width = 0.35  # width of the bars
 
-    sns.set_theme(style="whitegrid")
-    sns.barplot(
-        data=plot_df,
-        x="Field Name",
-        y="Mean Value",
-        hue="Field Name",
-        palette="Blues",
-        ax=ax,
-        legend=False,
-    )
+fig, ax = plt.subplots(figsize=(max(12, len(x_labels) * 0.7), 8))
 
-    ax.set_title(f"{field_name} ({unit})", fontsize=12)
-    ax.set_xlabel("")
-    ax.set_ylabel(f"{unit}", fontsize=12)
+rects1 = ax.bar(
+    x - width / 2, mean_before, width, label="Before Fault", color="skyblue"
+)
+rects2 = ax.bar(
+    x + width / 2, mean_after, width, label="After Fault", color="steelblue"
+)
 
-    for p in ax.patches:
+ax.set_ylabel("Mean Value (log scale)")
+ax.set_title("Mean Value Before and After Fault by Field (Sorted by % Change)")
+ax.set_xticks(x)
+ax.set_xticklabels(x_labels, rotation=90)
+ax.legend()
+
+# Use log scale for y-axis to handle large value differences
+ax.set_yscale("log")
+
+# Annotate bars with a small rotation and always show 0 if value is 0
+for rects, values in zip([rects1, rects2], [mean_before, mean_after]):
+    for rect, val in zip(rects, values):
+        height = rect.get_height()
+        display_val = f"{val:.2f}" if val != 0 else "0"
+        # For log scale, set y position for zero values just above the axis minimum
+        if val == 0:
+            y_pos = ax.get_ylim()[0] * 1.01  # slightly above axis min
+            va = "top"
+            offset = 8  # move closer to axis
+        else:
+            y_pos = height
+            va = "bottom"
+            offset = 8
         ax.annotate(
-            f"{p.get_height():.2f}",
-            (p.get_x() + p.get_width() / 2.0, p.get_height()),
-            ha="center",
-            va="center",
-            fontsize=12,
-            color="black",
-            xytext=(0, 9),
+            display_val,
+            xy=(rect.get_x() + rect.get_width() / 2, y_pos),
+            xytext=(0, offset),  # vertical offset
             textcoords="offset points",
+            ha="center",
+            va=va,
+            fontsize=8,
+            rotation=45,
+            rotation_mode="anchor",
         )
 
-    ax.set_xticks([0, 1])
-    ax.grid(True, linestyle="--", alpha=0.6)
-
-# Hide any unused subplots
-for idx in range(len(sorted_df.iloc[2:]), len(axes)):
-    axes[idx].axis("off")
+# Save the plot
+fig.savefig("bargraph_result.png")
 
 plt.tight_layout()
 plt.show()
