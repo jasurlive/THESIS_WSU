@@ -1,5 +1,9 @@
 # Inverter Short Circuit Faults
 
+# Example output
+
+![bargraph_result](https://github.com/user-attachments/assets/e824a9ab-be4e-4ab0-8f6c-ef8d5ae20a69)
+
 ---
 
 ## What is the Role of the Auxiliary Converter in Electric Locomotives?
