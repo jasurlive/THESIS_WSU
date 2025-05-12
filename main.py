@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # === Lets Use Excel file directly ===
-file_path = os.path.join(os.getcwd(), "before_fault_data.xlsx")
+file_path = os.path.join(os.getcwd(), "sample_data.xlsx")
 
 # skip header row
 df = pd.read_excel(file_path, engine="openpyxl")
