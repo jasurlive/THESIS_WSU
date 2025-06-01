@@ -1,7 +1,10 @@
 dataset/
 dataset_bargraph_results/
+sample/
+faults/
 
 main.ipynb
 main_old.ipynb
 all_in_one.ipynb
+forecast.ipynb
 
