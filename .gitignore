@@ -1,15 +1,9 @@
 dataset/
-dataset_bargraph_results/
-dataset_outputs/
+forecast_analysis_outputs/
+fault_analysis_outputs/
 sample/
-faults/
 .vscode/
 
 
-# main.ipynb
-main_old.ipynb
-all_in_one.ipynb
-forecast.ipynb
-forecast_location.ipynb
-forecast_2.ipynb
+fault_analysis_loop.ipynb
 
