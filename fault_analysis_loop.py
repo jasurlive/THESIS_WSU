@@ -6,7 +6,7 @@ import numpy as np
 
 # loop all the excel files through all the steps of manipulating the data
 
-output_dir = os.path.join(os.getcwd(), "dataset_outputs")
+output_dir = os.path.join(os.getcwd(), "fault_analysis_outputs")
 os.makedirs(output_dir, exist_ok=True)
 
 #  folders = ["dataset/after_fault", "dataset/before_fault"]
