@@ -1,5 +1,6 @@
 dataset/
 dataset_bargraph_results/
+dataset_outputs/
 sample/
 faults/
 .vscode/
