@@ -1,8 +1,12 @@
-# Inverter Short Circuit Faults
+# Analysis of AUX Converter Faults in Electric Locomotives
 
-# Example output
+## Example outputs
 
-![bargraph_result](https://github.com/user-attachments/assets/e824a9ab-be4e-4ab0-8f6c-ef8d5ae20a69)
+![FDPReport_30699 _18818 _F0103P2_MCC _Earth Fault in Aux winding_1_bargraph](https://github.com/user-attachments/assets/89c46721-1fed-4bb1-af65-7ba586e6aacf)
+![FDPReport_30699 _18818 _F0103P2_MCC _Earth Fault in Aux winding_1_lineplot](https://github.com/user-attachments/assets/8bc353b1-03ee-41fc-b400-d6acd979d372)
+![FDPReport_30699 _18818 _F0103P2_MCC _Earth Fault in Aux winding_1_pctchange](https://github.com/user-attachments/assets/99858b85-962b-4744-9d22-916da79e02e4)
+
+![bargraph_result](https://github.com/user-attachments/assets/8bcbb994-ee9d-4d7c-8e80-6c9eb7f04d2c)
 
 ---
 
