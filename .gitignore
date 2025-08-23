@@ -3,7 +3,11 @@ forecast_analysis_outputs/
 fault_analysis_outputs/
 sample/
 .vscode/
-
+template/
 
 fault_analysis_loop.ipynb
+
+fault_analysis.ipynb
+
+forecast_analysis.ipynb
 
